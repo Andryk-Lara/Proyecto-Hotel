@@ -61,7 +61,7 @@ body{
     height: 330px;
     max-width:  1200px;
     margin: auto;
-    background-image: url("/img/bali-banner.jpg");
+    background-image: url("../img/bali-banner.jpg");
     background-size: cover;
 }
 h1{
