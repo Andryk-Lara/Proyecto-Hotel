@@ -1,3 +1,3 @@
 # Proyecto-Hotel
 Proyecto #1 (Hotel) 
-Rama: Info Destino
+Rama: Info Destinos
