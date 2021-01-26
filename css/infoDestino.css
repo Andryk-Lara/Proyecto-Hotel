@@ -2,6 +2,9 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+strong{
+    font-size: 1.2rem;
+}
 .encabezado{
     background-color: #F4A24C;
     margin-bottom: 0px; /* VARIA */
