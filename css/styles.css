@@ -34,9 +34,9 @@ body{
 }
 
 .buscador-search{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 25px;
+    margin-top: 30px;
     padding: 1px 15px;
     border-radius: 100px;
 }
@@ -46,12 +46,17 @@ body{
 }
 
 .buscador-submit{
+    width: 25px;
     padding-top: 5px;
     padding-right: 25px;
     padding-bottom: 5px;
     padding-left: 25px;
     position: relative;
     top: 10px;
+}
+
+.usuario-encabezado{
+    width: 25px;
 }
 
 .buscador-submit:focus{
@@ -173,8 +178,8 @@ p.nombres-destinos{
     width: 1440px;
     background-color: #CCCCCC;
     margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 250px;
+    padding-top: 20px;
+    padding-bottom: 200px;
 }
 
 .informacion-footer{
