@@ -74,10 +74,10 @@ h3 {
 }
 
 .buscador-search {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 23px;
-  padding: 5px 15px;
+  margin-top: 20px;
+  padding: 1px 15px;
   border-radius: 100px;
 }
 
@@ -114,6 +114,9 @@ h3 {
 .encabezado-buscador img:hover{
   background-color: #d67710;
   border-radius: 100px;
+}
+.usuario-encabezado {
+    width: 25px
 }
 /*Estilos de los tabs*/
 .tabs-tablist {
@@ -465,4 +468,4 @@ button:focus {
   float: right;
   margin-right: 12%;
   padding-top: 50px;
-}
+} 
