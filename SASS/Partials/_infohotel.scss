@@ -1,0 +1,295 @@
+// Habitaciones informacio Hoteles Y Consultas
+.wrapper-form {
+  width: 200px;
+  margin: 0 auto;
+}
+/*Estilos de los tabs*/
+.tabs-content {
+  position: relative;
+  padding: 20px;
+}
+/*habitacion individual*/
+.usuario {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.rooms {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+.hotel-info-room a {
+  color: #F4A24C;
+  font-weight: bold;
+  position: absolute;
+  bottom:420px;
+  left: 350px;
+}
+
+.hotel-info-room >  p {
+  position: absolute;
+  bottom: 350px;
+  left: 350px;
+}
+
+.rooms-info {
+  position: absolute;
+  bottom: 260px;
+  left: 350px;
+}
+
+/*habitacion individual beneficios*/
+.check {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.rooms-list {
+  list-style: none;
+  padding: 0;
+}
+.rooms-list li {
+  line-height: 25px;
+}
+/*habitacion individual precio*/
+.price {
+  position: absolute;
+  bottom: 280px;
+  left: 850px;
+}
+
+.price span {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*suite*/
+.room-suite a {
+  color:#F4A24C;
+  font-weight: bold;
+  position: absolute;
+  bottom:215px;
+  left: 350px;
+}
+
+.room-suite >  p {
+  position: absolute;
+  bottom: 150px;
+  left: 350px;
+}
+
+.rooms-info-suite {
+  position: absolute;
+  bottom: 20px;
+  left: 350px;
+}
+/*suite beneficios*/
+.check {
+  width: 15px;
+}
+
+.suite-list {
+  list-style: none;
+  padding: 0;
+}
+.suite-list li{
+  line-height: 25px;
+}
+/*suite precio*/
+.price-suite {
+  position: absolute;
+  bottom: 70px;
+  left: 850px;
+}
+
+.price-suite span {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/*Modal habitación individual*/
+.modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-top: 10px solid #F4A24C;
+  width: 60%;
+}
+
+.modal-content p {
+  padding-bottom: 100px;
+}
+
+.close-modal {
+  color: #F4A24C;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  left: 75%;
+  top: 120px;
+  bottom: 200px;
+}
+
+.room-indiv-modal {
+  width: 330px;
+}
+
+.services {
+  width: 280px;
+  margin-left: 60px;
+}
+
+/*Modal Suite*/
+.modal-container-suite {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content-suite {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-top: 10px solid #F4A24C;
+  width: 60%;
+}
+
+.modal-content-suite p {
+  padding-bottom: 100px;
+}
+
+.close-modal-suite {
+  color: #F4A24C;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 75%;
+  top: 120px;
+  bottom: 200px;
+}
+
+.room-suite-modal {
+  width: 330px;
+}
+
+.services {
+  width: 280px;
+  margin-left: 60px;
+}
+
+.plus {
+  width: 100px;
+  position: absolute;
+  bottom: 250px;
+}
+#suite-modal:hover{
+  color: #F44611;
+}
+#room-indiv:hover{
+  color: #F44611;
+}
+/*Asignada por Js funcionamiento modal*/
+.js-block {
+  display: block;
+}
+
+/*FORM*/
+.query-form label {
+    color:#000;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.query-form input {
+    border: 2px solid #dd7649;
+    display: block;
+    margin-right: 0;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.query-form textarea {
+  border: 2px solid #dd7649;
+  border-radius: 5px;
+}
+
+.submit {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.submit:hover {
+  color:white;
+  background-color:#b76c90;
+  border: 0;
+}
+
+.tabs-content-item h1 {
+  color:#dd7649 ;
+}
+
+.boton-reservar {
+  color: #dd7649;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #dd7649;
+  border-radius: 30px;
+  padding: 5px 30px;
+}
+
+.boton-reservar:hover {
+  color: white;
+  background-color: #dd7649;
+}
+
+.boton-reservar:focus {
+  outline: none;
+}
+
+.button-submit button {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #dd7649;
+  border-radius: 30px;
+  margin: 15px 50px;
+  padding: 5px 30px;
+}
+
+.button-submit button:hover {
+  color: white;
+  background-color: #dd7649;
+}
+
+.button-submit button:focus {
+  outline: none;
+}

@@ -1,0 +1,84 @@
+body{
+  width: 1200px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+p {
+  font-size:1rem;
+}
+.navegation {
+  margin-left: 50px;
+}
+.ubicacion-pagina a {
+  float:left;
+  text-decoration: none;
+}
+.ubicacion-pagina a {
+  color:#000;
+  margin-right: 5px;
+}
+.encabezado{
+  background-color: #F4A24C;
+  margin-bottom: 0px; /* VARIA */
+}
+.encabezado-logo{
+  width: 25%;
+  float: left;
+  margin-left: 50px;
+}
+.logo-tralapa{
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.encabezado-buscador{
+  float: right;
+}
+.buscador-search{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  padding: 1px 15px;
+  border-radius: 100px;
+}
+.buscador-search:focus{
+  outline: none;
+}
+.buscador-submit{
+  width: 25px;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px;
+}
+.buscador-submit:focus{
+  outline: none;
+}
+.buscador-submit:hover{
+  background-color: #d67710;
+  border-radius: 100px;
+}
+.encabezado-buscador img{
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px;
+}
+.encabezado-buscador img:hover{
+  background-color: #d67710;
+  border-radius: 100px;
+}
+.banner{
+  height: 330px;
+  max-width:  1200px;
+  margin: auto;
+  background-image: url('/img/bali-banner.jpg');
+  background-size: cover;
+}

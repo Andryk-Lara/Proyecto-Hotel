@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+  <!--Header-->
+    <div class="encabezado clearfix">
+      <div class="encabezado-logo clearfix">
+        <a href="/homepage.html"><img class="logo-tralapa" src="img/logoHeader.png" alt="logo"></a>
+      </div>
+      <div class="encabezado-buscador clearfix">
+          <input class="buscador-search" type="search" placeholder="Buscar">
+          <input class="buscador-submit" title="boton enviar" alt="boton enviar" src="img/lupa.png" type="image" />
+          <img class="usuario-encabezado" src="img/usuario.png" alt="perfil">
+      </div>
+    </div>
+    <div class="navegation">
+      <span class="ubicacion-pagina clearfix"><a href="/homepage.html"><p>Inicio &#62 </p></a><a href="/infoDestino.html"><p>Destinos &#62</p></a><a href="/info-hotel.html "><p>Hoteles &#62</p></a><a href="#"><p class="active">Alila Seminyak</p></a></span>
+    </div>
+    <!--Contenido tabs-->
+    <div class="tabs">
+      <ul class="tabs-tablist">
+        <li><a href="#tab-1" class="tabs-tablist-item">Información del hotel</a></li>
+        <li><a href="#tab-2" class="tabs-tablist-item">Consultas</a></li>
+      </ul>
+      <!--Primer contenido tabs-->
+      <div class="tabs-content">
+      <!--Descripción Hotel-->
+        <div id="tab-1" class="tabs-content-item">
+          <h3>Alila Seminyak</h3>
+            <p>El hotel Alila Seminyak se encuentra en Petitenget, Seminyak, Indonesia.
+              El hotel destaca por encontrarse en un entorno natural de inigualable belleza
+              frente una playa paradisíaca.
+            </p>
+            <p>La mejor forma de degustar la gastronomía internacional y local es acercarse a cualquiera de sus restaurantes. También puede disfrutar de una extensa carta de cócteles y aperitivos en los distintos bares del complejo. Descubra nuestro programa Todo Incluido que, entre otros, incluye 3 comidas tipo buffet por noche de estancia: almuerzo, cena y desayuno (almuerzo el día de llegada y solo desayuno el día de salida).</p>
+            <p>
+              Durante sus días en el hotel, los huéspedes podrán practicar todo tipo de actividades acuáticas y deportes al aire libre en las completas instalaciones. Además, el hotel cuenta con un amplio programa de entretenimiento para todas las edades y zonas infantiles para pasar unas vacaciones en familia inolvidables.
+
+            El Hotel Alila Seminyak  es una estupenda opción si lo que se desea es relajarse y divertirse a la vez. Un hotel todo incluido creado para satisfacer las necesidades más exigentes.
+            </p>
+          <div class="hotel-info">
+      <!--Descripción corta habitaciones-->
+            <h2>Habitaciones</h2>
+            <div class="hotel-info-room">
+              <img class="rooms" src="img/Hab-individual.jpg" alt="habitacion individual">
+              <a  id="room-indiv" href="#">Habitación individual / Click para Mas informacion</a>
+              <p>Estancias con vistas privilegiadas y diseñadas
+              </br>
+                para disfrutar del máximo relax y confort.
+              </p>
+              <div class="rooms-info" class="clearfix">
+                <ul class="rooms-list">
+                  <li><img class="usuario" src="img/usuario.png" alt="imagen usuario">1 persona</li>
+                  <li><img class="check"src="img/check.png" alt="check">Conexión Wi-Fi (sin cargo)</li>
+                  <li><img class="check"src="img/check.png" alt="check">Aire acondicionado</li>
+                </ul>
+              </div>
+              <div class="price">
+                <p>Desde:
+                </br>
+                  <span>110$</span> /noche</p>
+                <button class="boton-reservar">Reservar</button>
+              </div>
+            </div>
+          </div>
+          <div class="hotel-info">
+            <div class="room-suite">
+              <img class="rooms" src="img/hab-suit.jpg" alt="habitacion suit">
+              <a id="suite-modal"href="#">Suite / Click para Mas informacion</a>
+              <p>Estancias espaciosas con vistas inmejorables y 2
+              </br>
+                estancias independientes: salón y dormitorio.
+              </p>
+              <div class="rooms-info-suite" class="clearfix">
+                <ul class="suite-list">
+                  <li><img class="usuario" src="img/usuario.png" alt="personita">6 personas</li>
+                  <li><img class="check"src="img/check.png" alt="check">Conexión Wi-Fi (sin cargo)</li>
+                  <li><img class="check"src="img/check.png" alt="check">Aire acondicionado</li>
+                  <li><img class="check"src="img/check.png" alt="check">Mini bar</li>
+                  <li><img class="check"src="img/check.png" alt="check">Sala de estar</li>
+                </ul>
+              </div>
+              <div class="price-suite">
+                <p>Desde:
+                </br>
+                  <span>167$</span> /noche</p>
+                <button class="boton-reservar">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--Segunddo contenido tabs-->
+        <div id="tab-2" class="tabs-content-item">
+      <!--Formulario de contacto-->
+          <div class="wrapper-form">
+            <h1>Contáctenos</h1>
+            <form class="query-form">
+              <label for="name">Nombre</label>
+              <input type="text" required>
+              <label for="email">Correo electrónico</label>
+              <input type="text" required>
+              <label for="phone">Telefóno</label>
+              <input type="text">
+              <label for="message">Mensaje</label>
+              <textarea rows="5" cols="30" required></textarea>
+              <div class="button-submit">
+                <button type="submit" value="submit" class="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--MODAL/descripción larga habitaciones-->
+        <div id="modal-container" class="modal-container">
+          <div id="modal-content" class="modal-content">
+            <img class="room-indiv-modal" src="img/Hab-individual.jpg" alt="habitacion individual">
+            <img class="services" src="img/servicios-basicos.jpg" alt="imagen servicios básicos">
+            <p>La habitación individual está diseñada para disfrutar del máximo relax y confort.Están decoradas en colores cálidos para proporcionar el mayor descanso a nuestros huéspedes.Está equipada con todo lo necesario para satisfacer las necesidades básicas,incluye una cama, escritorio, ducha, y televisión con cable</p>
+          </div>
+          <span><a id="close" class="close-modal" href="#">X</a></span>
+        </div>
+        <!--MODAL/descripción larga suite-->
+        <div id="modal-container-suite" class="modal-container-suite">
+          <div id="modal-content-suite" class="modal-content-suite">
+            <img class="room-suite-modal" src="img/hab-suit.jpg" alt="habitacion suite">
+            <img class="services" src="img/servicios-basicos.jpg" alt="imagen servicios básicos">
+            <p>Este hotel cuenta con 4 suites de 74 m2, distribuidas en 2 estancias: un salón y un dormitorio. Estas habitaciones situadas en el segundo piso, son muy espaciosas y disponen de inmejorables vistas.Son la opción más lujosa y elegante, pensadas especialmente para huéspedes que deseen un plus de confort y exclusividad durante las vacaciones.</p>
+          </div>
+          <span><a id="close-suite" class="close-modal-suite" href="#">X</a></span>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+      <div class="informacion-footer">
+          <p>Copyright Parque La Libertad</p>
+          <p>Andryk Lara - Stephanie Vega - Alex Guzmán - Gabriela Vargas</p>
+      </div>
+      <div class="imagenes-parque">
+          <img src="img/parqueLalibertad.png" alt="">
+      </div>
+  </div>
+  </div>
+  <script src="js/infoDestino.js"></script>
+</body>
+</html>

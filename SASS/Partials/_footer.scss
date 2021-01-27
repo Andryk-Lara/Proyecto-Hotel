@@ -1,0 +1,33 @@
+/* FOOTER */
+.footer{
+  margin-top:100px;
+  display: block;
+  margin: auto;
+  background-color: #CCCCCC;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+.informacion-footer{
+  color: black;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 45%;
+  float: left;
+  padding-top: 50px;
+  margin-left: 100px;
+}
+.usuario-encabezado{
+  width: 25px;
+}
+
+.imagenes-parque{
+  float: right;
+  margin-right: 12%;
+  padding-top: 50px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

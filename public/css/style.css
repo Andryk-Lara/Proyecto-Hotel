@@ -1,0 +1,718 @@
+@charset "UTF-8";
+body {
+  width: 1200px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center; }
+
+p {
+  font-size: 1rem; }
+
+.navegation {
+  margin-left: 50px; }
+
+.ubicacion-pagina a {
+  float: left;
+  text-decoration: none; }
+
+.ubicacion-pagina a {
+  color: #000;
+  margin-right: 5px; }
+
+.encabezado {
+  background-color: #F4A24C;
+  margin-bottom: 0px;
+  /* VARIA */ }
+
+.encabezado-logo {
+  width: 25%;
+  float: left;
+  margin-left: 50px; }
+
+.logo-tralapa {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.encabezado-buscador {
+  float: right; }
+
+.buscador-search {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  padding: 1px 15px;
+  border-radius: 100px; }
+
+.buscador-search:focus {
+  outline: none; }
+
+.buscador-submit {
+  width: 25px;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px; }
+
+.buscador-submit:focus {
+  outline: none; }
+
+.buscador-submit:hover {
+  background-color: #d67710;
+  border-radius: 100px; }
+
+.encabezado-buscador img {
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px; }
+
+.encabezado-buscador img:hover {
+  background-color: #d67710;
+  border-radius: 100px; }
+
+.banner {
+  height: 330px;
+  max-width: 1200px;
+  margin: auto;
+  background-image: url("/img/bali-banner.jpg");
+  background-size: cover; }
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center; }
+
+p {
+  font-size: 1rem; }
+
+.encabezado {
+  background-color: #F4A24C;
+  margin-bottom: 0px;
+  /* VARIA */ }
+
+.encabezado-logo {
+  width: 25%;
+  float: left;
+  margin-left: 50px; }
+
+.logo-tralapa {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.encabezado-buscador {
+  float: right;
+  margin-right: 10%; }
+
+.buscador-search {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  padding: 1px 15px;
+  border-radius: 100px; }
+
+.buscador-search:focus {
+  outline: none; }
+
+.buscador-submit {
+  width: 25px;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px; }
+
+.usuario-encabezado {
+  width: 25px;
+  margin-right: -75px; }
+
+.buscador-submit:focus {
+  outline: none; }
+
+.buscador-submit:hover {
+  background-color: #d67710;
+  border-radius: 100px; }
+
+.encabezado-buscador img {
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  position: relative;
+  top: 10px; }
+
+.encabezado-buscador img:hover {
+  background-color: #d67710;
+  border-radius: 100px; }
+
+.encabezado-banner {
+  width: 1200px;
+  position: relative; }
+
+.encabezado-banner img {
+  width: 100%;
+  height: 330px; }
+
+/* UBICACION PAGINA */
+.ubicacion-pagina p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+.ubicacion-pagina a {
+  color: black;
+  text-decoration: none; }
+
+/* DESTINOS */
+.destinos {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+.caja {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px; }
+
+p.nombres-destinos {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: black;
+  padding: 20px 0;
+  position: absolute;
+  bottom: -28px;
+  left: 0; }
+
+.información-destinos {
+  width: 46.7%;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 1%;
+  margin-right: 2.3%;
+  float: left; }
+
+.ubicacion-destinos {
+  float: left;
+  position: relative;
+  top: 15px;
+  margin-left: 2%;
+  margin-right: 15px; }
+
+.estrellas-destinos {
+  float: left;
+  position: relative;
+  top: -15px;
+  margin-top: 20px;
+  margin-left: 2%; }
+
+.descripcion-destino {
+  font-size: 1rem;
+  padding-left: 15px;
+  float: left; }
+
+.boton-descripcion {
+  color: white;
+  background-color: black;
+  float: right;
+  margin-top: 20px;
+  padding: 15px 35px;
+  text-decoration: none; }
+
+.error-boton {
+  color: white;
+  background-color: black;
+  float: right;
+  padding: 15px 35px;
+  text-decoration: none; }
+
+.boton-descripcion:hover {
+  background-color: #F4A24C; }
+
+.boton-descripcion:active {
+  background-color: #f79226; }
+
+.tabs {
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.tabs-tablist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: -1px; }
+
+.tabs-tablist-item {
+  display: block;
+  padding: 10px 100px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #F4A24C;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #999; }
+
+/* Clase asignada por js */
+.js-active {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.09); }
+
+.js-content-hidden {
+  display: none; }
+
+.wrapper-form {
+  width: 200px;
+  margin: 0 auto; }
+
+/* Css de Galeria */
+#subimagen {
+  padding: 10px;
+  margin: auto; }
+
+#subimagen img {
+  margin: auto;
+  width: 180px;
+  filter: grayscale(100%);
+  transition: 0.2s;
+  border: 2px solid #ccc; }
+
+#subimagen img:hover {
+  filter: grayscale(0%); }
+
+#img-grande {
+  text-align: center; }
+
+#img-grande img {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #ccc; }
+
+.info-text {
+  margin-top: 50px;
+  padding-left: 200px;
+  text-align: center;
+  padding-right: 200px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+  font-size: 1rem; }
+
+/* Clase para resaltar la imagen activa manejada con JavaScript */
+.active {
+  transform: scale(1.05); }
+
+/* FOOTER */
+.footer {
+  margin-top: 100px;
+  display: block;
+  margin: auto;
+  background-color: #CCCCCC;
+  padding-top: 20px;
+  padding-bottom: 200px; }
+
+.informacion-footer {
+  color: black;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 45%;
+  float: left;
+  padding-top: 50px;
+  margin-left: 100px; }
+
+.usuario-encabezado {
+  width: 25px; }
+
+.imagenes-parque {
+  float: right;
+  margin-right: 12%;
+  padding-top: 50px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.wrapper-form {
+  width: 200px;
+  margin: 0 auto; }
+
+/*Estilos de los tabs*/
+.tabs-content {
+  position: relative;
+  padding: 20px; }
+
+/*habitacion individual*/
+.usuario {
+  width: 15px;
+  margin-right: 10px; }
+
+.rooms {
+  width: 250px;
+  margin-bottom: 25px; }
+
+.hotel-info-room a {
+  color: #F4A24C;
+  font-weight: bold;
+  position: absolute;
+  bottom: 420px;
+  left: 350px; }
+
+.hotel-info-room > p {
+  position: absolute;
+  bottom: 350px;
+  left: 350px; }
+
+.rooms-info {
+  position: absolute;
+  bottom: 260px;
+  left: 350px; }
+
+/*habitacion individual beneficios*/
+.check {
+  width: 15px;
+  margin-right: 10px; }
+
+.rooms-list {
+  list-style: none;
+  padding: 0; }
+
+.rooms-list li {
+  line-height: 25px; }
+
+/*habitacion individual precio*/
+.price {
+  position: absolute;
+  bottom: 280px;
+  left: 850px; }
+
+.price span {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold; }
+
+/*suite*/
+.room-suite a {
+  color: #F4A24C;
+  font-weight: bold;
+  position: absolute;
+  bottom: 215px;
+  left: 350px; }
+
+.room-suite > p {
+  position: absolute;
+  bottom: 150px;
+  left: 350px; }
+
+.rooms-info-suite {
+  position: absolute;
+  bottom: 20px;
+  left: 350px; }
+
+/*suite beneficios*/
+.check {
+  width: 15px; }
+
+.suite-list {
+  list-style: none;
+  padding: 0; }
+
+.suite-list li {
+  line-height: 25px; }
+
+/*suite precio*/
+.price-suite {
+  position: absolute;
+  bottom: 70px;
+  left: 850px; }
+
+.price-suite span {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold; }
+
+/*Modal habitación individual*/
+.modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-top: 10px solid #F4A24C;
+  width: 60%; }
+
+.modal-content p {
+  padding-bottom: 100px; }
+
+.close-modal {
+  color: #F4A24C;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  left: 75%;
+  top: 120px;
+  bottom: 200px; }
+
+.room-indiv-modal {
+  width: 330px; }
+
+.services {
+  width: 280px;
+  margin-left: 60px; }
+
+/*Modal Suite*/
+.modal-container-suite {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.modal-content-suite {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-top: 10px solid #F4A24C;
+  width: 60%; }
+
+.modal-content-suite p {
+  padding-bottom: 100px; }
+
+.close-modal-suite {
+  color: #F4A24C;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 75%;
+  top: 120px;
+  bottom: 200px; }
+
+.room-suite-modal {
+  width: 330px; }
+
+.services {
+  width: 280px;
+  margin-left: 60px; }
+
+.plus {
+  width: 100px;
+  position: absolute;
+  bottom: 250px; }
+
+#suite-modal:hover {
+  color: #F44611; }
+
+#room-indiv:hover {
+  color: #F44611; }
+
+/*Asignada por Js funcionamiento modal*/
+.js-block {
+  display: block; }
+
+/*FORM*/
+.query-form label {
+  color: #000;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0; }
+
+.query-form input {
+  border: 2px solid #dd7649;
+  display: block;
+  margin-right: 0;
+  padding: 10px 40px;
+  border-radius: 5px; }
+
+.query-form textarea {
+  border: 2px solid #dd7649;
+  border-radius: 5px; }
+
+.submit {
+  margin-top: 10px;
+  padding: 5px; }
+
+.submit:hover {
+  color: white;
+  background-color: #b76c90;
+  border: 0; }
+
+.tabs-content-item h1 {
+  color: #dd7649; }
+
+.boton-reservar {
+  color: #dd7649;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #dd7649;
+  border-radius: 30px;
+  padding: 5px 30px; }
+
+.boton-reservar:hover {
+  color: white;
+  background-color: #dd7649; }
+
+.boton-reservar:focus {
+  outline: none; }
+
+.button-submit button {
+  color: #dd7649;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #dd7649;
+  border-radius: 30px;
+  margin: 15px 50px;
+  padding: 5px 30px; }
+
+.button-submit button:hover {
+  color: white;
+  background-color: #dd7649; }
+
+.button-submit button:focus {
+  outline: none; }
+
+/* Imagen de Ubicación */
+.location {
+  width: 16px;
+  height: 16px;
+  float: left; }
+
+/* Imagen de las 5 Estrellas */
+#star1 {
+  width: 80px;
+  height: 16px;
+  padding: 0;
+  left: 185px;
+  margin-top: -100px; }
+
+#star2 {
+  width: 80px;
+  height: 16px;
+  padding: 0;
+  margin-top: -22px;
+  left: 510px; }
+
+#star3 {
+  width: 80px;
+  height: 16px;
+  padding: 0;
+  margin-top: -22px;
+  left: 460px; }
+
+/* Botones de "Saber mas" */
+.button {
+  margin: 0 auto;
+  margin-top: 43px;
+  width: 120px;
+  height: 45px;
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  margin-left: 620px;
+  font-size: 1rem; }
+
+.button:hover {
+  background-color: #F4A24C;
+  color: black;
+  border: 0; }
+
+#button-sabermas {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 120px;
+  height: 45px;
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  margin-left: 620px;
+  font-size: 1rem; }
+
+#button-sabermas:hover {
+  background-color: #F4A24C;
+  color: black;
+  border: 0; }
+
+#button-sabermashoteles {
+  width: 160px;
+  height: 50px;
+  margin-left: 510px;
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  font-size: 1rem; }
+
+#button-sabermashoteles:hover {
+  background-color: #F4A24C;
+  color: black;
+  border: 0; }
+
+/* Parrafo de Reservado hace.. */
+.reservation {
+  color: red; }
+
+/* Cajas de Informacion */
+.box1 {
+  border: 1.5px solid #000;
+  padding: 0px 0% 2% 0%;
+  margin-bottom: 10px;
+  border-radius: 20px; }
+
+.box2 {
+  border: 1.5px solid #000;
+  padding: 0px 0% 2% 0%;
+  margin-bottom: 10px;
+  border-radius: 20px; }
+
+.box3 {
+  border: 1.5px solid #000;
+  padding: 0px 0% 1.9% 0%;
+  margin-bottom: 60px;
+  border-radius: 20px; }
+
+.img-hotel {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  float: left;
+  border-radius: 20px;
+  margin-top: 5px; }
