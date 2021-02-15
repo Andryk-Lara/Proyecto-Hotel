@@ -81,7 +81,7 @@ p {
   height: 330px;
   max-width: 1200px;
   margin: auto;
-  background-image: url("img/bali-banner.jpg");
+  background-image: url("../../img/bali-banner.jpg");
   background-size: cover; }
 
 body {
@@ -239,6 +239,7 @@ p.nombres-destinos {
   float: right;
   padding: 15px 35px;
   text-decoration: none; }
+
 .error-boton:hover{ 
   background-color: #F4A24C;
 }
